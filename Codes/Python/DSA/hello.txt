@@ -1,0 +1,6 @@
+name:dipen,surname:patel,class:6A1+,language:python
+name:parth,surname:joshi,class:none,language:java
+name:rahul,surname:patel,class:none,language:none
+name:divyanshu,surname:joshi,class:6A1+,language:python
+name:harshal,surname:patel,class:6A1+,language:Anpadh gawar
+name:harshil,surname:findoliya,class:6A1++,language:english|spanish|french|russian|hindi|gujarati|marathi

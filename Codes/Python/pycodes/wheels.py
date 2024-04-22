@@ -1,0 +1,1 @@
+v,w = int(input("v:")),int(input("w:"));print(f"there are {int((4*v - w)/2)} two wheelers and {int((w - 2*v)/2)} four wheelers ")

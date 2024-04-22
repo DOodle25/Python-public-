@@ -1,0 +1,4 @@
+def spiral(n):
+    [[(print(f"{(sum(4 * (n - min(i, j, n - i - 1, n - j - 1)) for k in range(min(i, j, n - i - 1, n - j - 1))) + i - min(i, j, n - i - 1, n - j - 1) + (n - min(i, j, n - i - 1, n - j - 1) * 2)):3}",end=" ") if (i + j > n - 1) else print(f"{sum(4 * (n - min(i, j, n - i - 1, n - j - 1)) for k in range(min(i, j, n - i - 1, n - j - 1))) + j - min(i, j, n - i - 1, n - j - 1) + 1:3}", end=" ")) if (j - i >= 0) else (print(f"{sum(4 * (n - min(i, j, n - i - 1, n - j - 1)) for k in range(min(i, j, n - i - 1, n - j - 1))) + i - j + 2 * (n - min(i, j, n - i - 1, n - j - 1) * 2) - 1:3}",end=" ") if not i + j < n - 1 else print(f"{sum(4 * (n - min(i, j, n - i - 1, n - j - 1)) for k in range(min(i, j, n - i - 1, n - j - 1))) + (n - j - i - 1) + (n - min(i, j, n - i - 1, n - j - 1) - 1 - j) + 2 * (n - min(i, j, n - i - 1, n - j - 1) * 2) - 1:3}",end=" ")) for j in range (n)] and (print()) for i in range (n)]
+while(True):
+    spiral(int(input()))

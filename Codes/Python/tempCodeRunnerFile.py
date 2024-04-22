@@ -1,0 +1,1 @@
+# Execute a query to get the list of tables in the database
